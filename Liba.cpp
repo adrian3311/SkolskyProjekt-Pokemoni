@@ -259,7 +259,7 @@ int main() {
 								}
 							}
 //utoky (Hrac2)
-							cout << "Teraz je na rade Hrac2";
+							cout << "Teraz je na rade Hrac2: ";
 							int pcutok = (rand() % 21);
 							int ja2;
 							cin >> ja2;
@@ -429,7 +429,7 @@ int main() {
 								}
 							}
 //utoky (ja2)
-							cout << "Teraz je na rade Hrac2" << endl;
+							cout << "Teraz je na rade Hrac2: " << endl;
 							int pcutok = (rand() % 21);
 							int ja2;
 							cin >> ja2;
@@ -533,7 +533,7 @@ int main() {
 				}
 			}
 		}
-
+//hra sp.
 	else if (volba == 2) {
 		int pikachuXP = 0;
 		int cuboneXP = 0;
@@ -544,14 +544,14 @@ int main() {
 		bool start;
 		cout << "Zadaj svoje hracske meno: ";
 		cin >> meno;
-		if (meno == "elena") {
+		if (meno == "Adrian") {
 			mince = mince + 1000;
 			pikachuXP = pikachuXP + 1000;
 			cuboneXP = cuboneXP + 1000;
 		}
 		cout << "HRA POKEMONI" << endl;
 		cout << "Vitaj trener" << endl;
-		cout << "Za vyhrate zapasy pokemonov mozes ziskat mince" << endl;
+		cout << "Za vyhrane zapasy pokemonov mozes ziskat mince" << endl;
 		cout << "Mince mozes vyuzit neskor v obchode" << endl;
 		cout << "Stlac 1 aby si spustil hru inak budes vyhodeny:" << endl;
 		cin >> start;
